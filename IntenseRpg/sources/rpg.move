@@ -58,6 +58,5 @@ module intense_rpg::rpg {
 
         // Check if accessor functions return correct values
         assert!(magic(&sword) == 42 && strength(&sword) == 7, 1);
-        debug::print(&sword);
     }
 }
