@@ -16,6 +16,6 @@
   - Machine learning model development
   - Data-driven content distribution
 
-  ## Get in touch
+
 
   - [Audience Labs](https://audiencelabs.io)
