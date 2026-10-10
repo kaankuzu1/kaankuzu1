@@ -4,11 +4,13 @@ BSc Computer Science and Engineering student at [Eindhoven University of Technol
 
 ## What I'm building
 
-### Audience Labs
+### [Audience Labs](https://audiencelabs.net)
 
 Clip automation for streamers. You paste a Twitch or Kick VOD link (or upload a file), the pipeline transcribes it with Whisper on GPU, adds speaker diarization and audio-emotion signals, and an LLM finds the moments worth posting. Each hook gets a virality score plus Hook / Flow / Value / Trend grades, then the app renders vertical clips with word-level animated captions and an optional on-screen hook, ready to review and schedule for TikTok, YouTube Shorts and Instagram Reels.
 
-Next.js 16 dashboard, Python worker (yt-dlp, FFmpeg, faster-whisper, pyannote), Supabase for data and realtime, Cloudflare R2 for storage, Modal for GPU jobs. The app code is private while it heads to launch; the [landing page](https://github.com/kaankuzu1/growthlanding) is public.
+Next.js 16 dashboard, Python worker (yt-dlp, FFmpeg, faster-whisper, pyannote), Supabase for data and realtime, Cloudflare R2 for storage, Modal for GPU jobs. The app code is private; the [landing page](https://github.com/kaankuzu1/growthlanding) is public.
+
+**Private beta is open:** [request access at audiencelabs.net](https://audiencelabs.net/request-access)
 
 <img src="assets/audiencelabs.png" alt="Audience Labs dashboard: a scored clip with editorial grades" width="850">
 
