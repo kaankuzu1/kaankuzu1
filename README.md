@@ -4,11 +4,9 @@ I build AI products end to end, from the model to the pixels. CSE student at TU/
 
 ## Right now: [Audience Labs](https://audiencelabs.net)
 
-> Four hours live. Thirty seconds worth posting.
-
 Streamers sit on hours of VODs nobody rewatches. Audience Labs takes a Twitch or Kick VOD, transcribes it with Whisper, works out who is speaking and when the energy spikes, has an LLM pick the moments worth posting, scores them, and renders vertical clips with animated captions for TikTok, Shorts and Reels.
 
-<img src="assets/audiencelabs.png" alt="Audience Labs dashboard: a scored clip with editorial grades" width="850">
+<a href="https://audiencelabs.net"><img src="assets/audiencelabs-landing.png" alt="Audience Labs landing page: Four hours live. Thirty seconds worth posting." width="850"></a>
 
 It's in private beta. **[Request access →](https://audiencelabs.net/request-access)**
 
