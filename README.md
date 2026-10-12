@@ -1,34 +1,28 @@
-# Hi, I'm Kaan
+# Hey, I'm Kaan 👋
 
-BSc Computer Science and Engineering student at [Eindhoven University of Technology (TU/e)](https://www.tue.nl/en/), originally from Istanbul. I like taking a product from idea to something people can actually use: frontend, backend, infra, ML and the boring glue in between.
+I build AI products end to end, from the model to the pixels. CSE student at TU/e in Eindhoven, originally from Istanbul.
 
-## What I'm building
+## Right now: [Audience Labs](https://audiencelabs.net)
 
-### [Audience Labs](https://audiencelabs.net)
+Streamers sit on hours of VODs nobody rewatches. Audience Labs takes a Twitch or Kick VOD, transcribes it with Whisper, works out who is speaking and when the energy spikes, has an LLM pick the moments worth posting, scores them, and renders vertical clips with animated captions for TikTok, Shorts and Reels.
 
-Clip automation for streamers. You paste a Twitch or Kick VOD link (or upload a file), the pipeline transcribes it with Whisper on GPU, adds speaker diarization and audio-emotion signals, and an LLM finds the moments worth posting. Each hook gets a virality score plus Hook / Flow / Value / Trend grades, then the app renders vertical clips with word-level animated captions and an optional on-screen hook, ready to review and schedule for TikTok, YouTube Shorts and Instagram Reels.
+<a href="https://audiencelabs.net"><img src="assets/audiencelabs-landing.png" alt="Audience Labs landing page: Four hours live. Thirty seconds worth posting." width="850"></a>
 
-Next.js 16 dashboard, Python worker (yt-dlp, FFmpeg, faster-whisper, pyannote), Supabase for data and realtime, Cloudflare R2 for storage, Modal for GPU jobs. The app code is private; the [landing page](https://github.com/kaankuzu1/growthlanding) is public.
+It's in private beta. **[Request access →](https://audiencelabs.net/request-access)**
 
-**Private beta is open:** [request access at audiencelabs.net](https://audiencelabs.net/request-access)
+## Open source
 
-<img src="assets/audiencelabs.png" alt="Audience Labs dashboard: a scored clip with editorial grades" width="850">
+**[clip-virality-scorer](https://github.com/kaankuzu1/clip-virality-scorer)** is the part of Audience Labs that decides which clips are worth posting, pulled out into a small Python package you can use on your own clips.
 
-### Yolofootball
+```bash
+pip install "git+https://github.com/kaankuzu1/clip-virality-scorer"
+clip-scorer rank hooks.json
+```
 
-Computer vision for 1v1 football. Point a camera at a side-angle clip and get back a timestamped JSON timeline of tackles, tricks, passes, shots and goals. YOLO detects the players, ball and goal, a tracker follows them, and two rule engines turn the tracks into events, with a macOS app for recording and reviewing. Source: [Yolofootball](https://github.com/kaankuzu1/Yolofootball)
+## Stack
 
-### Aninda
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,python,fastapi,pytorch,supabase,postgres,redis,docker" alt="TypeScript, React, Next.js, Tailwind, Node.js, Python, FastAPI, PyTorch, Supabase, Postgres, Redis, Docker" height="40">
 
-Cold email platform for agencies: multi-inbox campaigns with A/B variants, automated warmup, lead verification and reply intent detection. NestJS API, Next.js dashboard, BullMQ workers, Supabase. Source: [Anindav2](https://github.com/kaankuzu1/Anindav2)
+## Follow the build
 
-<img src="assets/aninda.png" alt="Aninda dashboard" width="850">
-
-## Other projects
-
-- [IntenseRPG11](https://github.com/kaankuzu1/IntenseRPG11): on-chain RPG items in Sui Move, written while learning the language
-- [ProjectCalculator](https://github.com/kaankuzu1/ProjectCalculator): one of my first projects, a plain HTML/CSS/JS calculator ([live](https://kaankuzu1.github.io/ProjectCalculator/))
-
-## Tools I use most
-
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,nestjs,python,fastapi,pytorch,opencv,supabase,postgres,redis,docker" alt="TypeScript, React, Next.js, Tailwind, Node.js, NestJS, Python, FastAPI, PyTorch, OpenCV, Supabase, Postgres, Redis, Docker" height="40">
+I post progress on X: [@kaankuzudev](https://x.com/kaankuzudev)
