@@ -1,31 +1,30 @@
-# Hi, I'm Kaan
+# Hey, I'm Kaan 👋
 
-BSc Computer Science and Engineering student at [Eindhoven University of Technology (TU/e)](https://www.tue.nl/en/), originally from Istanbul. I build AI systems end to end and ship them as real products: data pipelines, ML models, backend, frontend and the infra that keeps it all running.
+I build AI products end to end, from the model to the pixels. CSE student at TU/e in Eindhoven, originally from Istanbul. I build with Claude Code as my pair programmer.
 
-I build solo with AI-assisted development (Claude Code): I design the system, make the calls and review and test what goes in.
+## Right now: [Audience Labs](https://audiencelabs.net)
 
-Open to software and ML internships for summer 2027.
+> Four hours live. Thirty seconds worth posting.
 
-## What I'm building
-
-### [Audience Labs](https://audiencelabs.net)
-
-Clip automation for streamers. You paste a Twitch or Kick VOD link (or upload a file), the pipeline transcribes it with Whisper on GPU, adds speaker diarization and audio-emotion signals, and an LLM finds the moments worth posting. Each hook gets a virality score plus Hook / Flow / Value / Trend grades, then the app renders vertical clips with word-level animated captions and an optional on-screen hook, ready to review and schedule for TikTok, YouTube Shorts and Instagram Reels.
-
-Next.js 16 dashboard, Python worker (yt-dlp, FFmpeg, faster-whisper, pyannote), Supabase for data and realtime, Cloudflare R2 for storage, Modal for GPU jobs. The app code is private; the scoring stage is open source as [clip-virality-scorer](https://github.com/kaankuzu1/clip-virality-scorer) and the [landing page](https://github.com/kaankuzu1/growthlanding) is public.
-
-**Private beta, free and invite-only:** [request access at audiencelabs.net](https://audiencelabs.net/request-access)
+Streamers sit on hours of VODs nobody rewatches. Audience Labs takes a Twitch or Kick VOD, transcribes it with Whisper, works out who is speaking and when the energy spikes, has an LLM pick the moments worth posting, scores them, and renders vertical clips with animated captions for TikTok, Shorts and Reels.
 
 <img src="assets/audiencelabs.png" alt="Audience Labs dashboard: a scored clip with editorial grades" width="850">
 
-### [clip-virality-scorer](https://github.com/kaankuzu1/clip-virality-scorer)
+It's in private beta. **[Request access →](https://audiencelabs.net/request-access)**
 
-The clip-ranking stage of Audience Labs, rewritten as a small standalone Python package. It takes candidate clips proposed by an LLM and ranks them by how likely they are to perform on short-form platforms: a heuristic score on top of the noisy LLM estimate, creator-normalised labels, and an optional XGBoost model once real engagement data exists. `pip install` it and run `clip-scorer rank` on the bundled example. Standard library only by default, tested with pytest, CI on GitHub Actions, MIT licensed.
+## Open source
 
-## Tools I use most
+**[clip-virality-scorer](https://github.com/kaankuzu1/clip-virality-scorer)** is the part of Audience Labs that decides which clips are worth posting, pulled out into a small Python package you can use on your own clips.
 
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,nestjs,python,fastapi,pytorch,opencv,supabase,postgres,redis,docker" alt="TypeScript, React, Next.js, Tailwind, Node.js, NestJS, Python, FastAPI, PyTorch, OpenCV, Supabase, Postgres, Redis, Docker" height="40">
+```bash
+pip install "git+https://github.com/kaankuzu1/clip-virality-scorer"
+clip-scorer rank hooks.json
+```
 
-## Find me
+## Stack
 
-[X @kaankuzudev](https://x.com/kaankuzudev) · [audiencelabs.net](https://audiencelabs.net)
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,python,fastapi,pytorch,supabase,postgres,redis,docker" alt="TypeScript, React, Next.js, Tailwind, Node.js, Python, FastAPI, PyTorch, Supabase, Postgres, Redis, Docker" height="40">
+
+## Follow the build
+
+I post progress on X: [@kaankuzudev](https://x.com/kaankuzudev)
