@@ -22,14 +22,10 @@ Next.js 16 dashboard, Python worker (yt-dlp, FFmpeg, faster-whisper, pyannote), 
 
 The clip-ranking stage of Audience Labs, rewritten as a small standalone Python package. It takes candidate clips proposed by an LLM and ranks them by how likely they are to perform on short-form platforms: a heuristic score on top of the noisy LLM estimate, creator-normalised labels, and an optional XGBoost model once real engagement data exists. `pip install` it and run `clip-scorer rank` on the bundled example. Standard library only by default, tested with pytest, CI on GitHub Actions, MIT licensed.
 
-## Before TU/e
-
-Software team of FRC Team ROBIN (FIRST Robotics Competition), 2023 to 2025.
-
 ## Tools I use most
 
 <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,nestjs,python,fastapi,pytorch,opencv,supabase,postgres,redis,docker" alt="TypeScript, React, Next.js, Tailwind, Node.js, NestJS, Python, FastAPI, PyTorch, OpenCV, Supabase, Postgres, Redis, Docker" height="40">
 
 ## Find me
 
-[LinkedIn](https://www.linkedin.com/in/kaan-kuzu-012338292) · [X @kaankuzudev](https://x.com/kaankuzudev) · [audiencelabs.net](https://audiencelabs.net)
+[X @kaankuzudev](https://x.com/kaankuzudev) · [audiencelabs.net](https://audiencelabs.net)
