@@ -1,6 +1,6 @@
 # Hey, I'm Kaan 👋
 
-I build AI products end to end, from the model to the pixels. CSE student at TU/e in Eindhoven, originally from Istanbul. I build with Claude Code as my pair programmer.
+I build AI products end to end, from the model to the pixels. CSE student at TU/e in Eindhoven, originally from Istanbul.
 
 ## Right now: [Audience Labs](https://audiencelabs.net)
 
