@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/kaan-kuzu-ascii.svg" alt="KAAN KUZU in ASCII art" width="650">
+</p>
+
 # Hey, I'm Kaan 👋
 
 I build AI products end to end, from the model to the pixels. CSE student at TU/e in Eindhoven, originally from Istanbul.
