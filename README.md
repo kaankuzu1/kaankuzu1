@@ -30,3 +30,5 @@ clip-scorer rank hooks.json
 ## Follow the build
 
 I post progress on X: [@kaankuzudev](https://x.com/kaankuzudev)
+
+More about me: [kaankuzu1.github.io](https://kaankuzu1.github.io)
